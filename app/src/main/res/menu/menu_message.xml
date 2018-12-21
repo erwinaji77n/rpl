@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_savedraft"
+        android:title="Simpan di Draft"></item>
+    <item
+        android:id="@+id/action_batal"
+        android:title="Batalkan"></item>
+    <item
+        android:id="@+id/action_attach"
+        android:icon="@drawable/ic_attach_file"
+        android:title="Attach"
+        app:showAsAction="ifRoom"></item>
+
+</menu>
+
