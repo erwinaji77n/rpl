@@ -84,12 +84,16 @@ public class DrawerActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_inbox) {
+            getSupportActionBar().setTitle("Surat Masuk");
             fragment = new surat_masuk();
         } else if (id == R.id.nav_outbox) {
+            getSupportActionBar().setTitle("Surat Keluar");
             fragment = new surat_keluar();
         } else if (id == R.id.nav_draft) {
+            getSupportActionBar().setTitle("Draft");
             fragment = new draft();
         } else if (id == R.id.nav_archive) {
+            getSupportActionBar().setTitle("Arsip Surat");
             fragment = new archive();
         }
         if (fragment != null) {
